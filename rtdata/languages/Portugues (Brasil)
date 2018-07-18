@@ -1752,7 +1752,7 @@ TP_PREPROCESS_NO_FOUND;Nenhum encontrado
 TP_PREPROCESS_PDAFLINESFILTER;Filtro de linhas PDAF
 TP_PREPROCESS_PDAFLINESFILTER_TOOLTIP;Tenta suprimir o ruído de faixas causado por pixels PDAF no sensor, ocorrendo com algumas câmeras mirrorless da Sony em algumas cenas em contraluz com "flare" visível.
 TP_PRSHARPENING_LABEL;Pós-Redimensionamento de Nitidez
-TP_PRSHARPENING_TOOLTIP;Focaliza a imagem após o redimensionamento. Funciona somente quando o método de redimensionamento "Lanczos" é usado. É impossível visualizar os efeitos dessa ferramenta. 35/5000
+TP_PRSHARPENING_TOOLTIP;Focaliza a imagem após o redimensionamento. Funciona somente quando o método de redimensionamento "Lanczos" é usado. É impossível visualizar os efeitos dessa ferramenta. Veja RawPedia para instruções de uso.
 TP_RAWCACORR_AUTO;Auto correção
 TP_RAWCACORR_CABLUE;Azul
 TP_RAWCACORR_CARED;Vermelho
@@ -2217,7 +2217,6 @@ TP_WBALANCE_TUNGSTEN;Tungstênio
 TP_WBALANCE_WATER1;Embaixo da Água 1
 TP_WBALANCE_WATER2;Embaixo da Água 2
 TP_WBALANCE_WATER_HEADER;Embaixo da Água
-Veja RawPedia para instruções de uso.
 ZOOMPANEL_100;(100%)
 ZOOMPANEL_NEWCROPWINDOW;Janela de detalhe aberta (nova)
 ZOOMPANEL_ZOOM100;Zoom para 100%\nAtalho: <b>z</b>
