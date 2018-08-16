@@ -1,4 +1,4 @@
-#01 2018-07-25 Digitalpix58
+#01 2018-08-16 Digitalpix58
 
 ABOUT_TAB_BUILD;Versão
 ABOUT_TAB_CREDITS;Créditos
@@ -48,7 +48,7 @@ DYNPROFILEEDITOR_NEW_RULE;Nva Regra de Perfil Dinâmico
 DYNPROFILEEDITOR_PROFILE;Perfil de Processamento
 EDITWINDOW_TITLE;Edição de Imagem
 EDIT_OBJECT_TOOLTIP;Exibe um widget na janela de visualização que permite ajustar essa ferramenta.
-EDIT_PIPETTE_TOOLTIP;Para adicionar um ponto de ajuste à curva, segure a tecla Ctrl enquanto clica com o botão esquerdo no ponto desejado na visualização da imagem.\nPara ajustar o ponto, Mantenha pressionada a tecla Ctrl enquanto clica com o botão esquerdo na área correspondente na visualização, então solte Ctrl (amenos que deseje um fino controle) e  enquanto ainda mantém pressionado o botão esquerdo do mouse, mova o mouse para cima ou para baixo para mover esse ponto para cima ou para baixo na curva.
+EDIT_PIPETTE_TOOLTIP;Para adicionar um ponto de ajuste à curva, segure a tecla Ctrl enquanto clica com o botão esquerdo no ponto desejado na visualização da imagem.\nPara ajustar o ponto, mantenha pressionada a tecla Ctrl enquanto clica com o botão esquerdo na área correspondente na visualização, então solte Ctrl (amenos que deseje um fino controle) e  enquanto ainda mantém pressionado o botão esquerdo do mouse, mova o mouse para cima ou para baixo para mover esse ponto para cima ou para baixo na curva.
 EXIFFILTER_APERTURE;Abertura
 EXIFFILTER_CAMERA;Câmera
 EXIFFILTER_EXPOSURECOMPENSATION;Compensação de exposição (EV)
@@ -261,12 +261,12 @@ HISTORY_MSG_10;Exposição - Compressão de sombra
 HISTORY_MSG_11;Exposição - Curva de tom 1
 HISTORY_MSG_12;Exposição - Níveis automáticos
 HISTORY_MSG_13;Exposição - Clip
-HISTORY_MSG_14;L*a*b* - Claridade
-HISTORY_MSG_15;L*a*b* - Contraste
+HISTORY_MSG_14;Lab - Claridade
+HISTORY_MSG_15;Lab - Contraste
 HISTORY_MSG_16;-
 HISTORY_MSG_17;-
 HISTORY_MSG_18;-
-HISTORY_MSG_19;L*a*b* - L* curva
+HISTORY_MSG_19;Lab - L* curva
 HISTORY_MSG_20;Nitidez
 HISTORY_MSG_21;USM - Raio
 HISTORY_MSG_22;USM - Montante
@@ -342,9 +342,9 @@ HISTORY_MSG_91;NR - Crominância mestre
 HISTORY_MSG_92;NR - Gamma
 HISTORY_MSG_93;CbDL - Valor
 HISTORY_MSG_94;Contraste por Níveis de Detalhes
-HISTORY_MSG_95;L*a*b* - Cromaticidade
-HISTORY_MSG_96;L*a*b* - a* curva
-HISTORY_MSG_97;L*a*b* - b* curva
+HISTORY_MSG_95;Lab - Cromaticidade
+HISTORY_MSG_96;Lab - a* curva
+HISTORY_MSG_97;Lab - b* curva
 HISTORY_MSG_98;Método Demosaicing
 HISTORY_MSG_99;Filtro Hot pixel
 HISTORY_MSG_100;Exposição - Saturação
@@ -358,9 +358,9 @@ HISTORY_MSG_107;Defringe - Limite
 HISTORY_MSG_108;Exposição - Limite HLC
 HISTORY_MSG_109;Redimensionar - Caixa delimitadora
 HISTORY_MSG_110;Redimensionar - Aplica-se a
-HISTORY_MSG_111;L*a*b* - Evite mudança de cor
+HISTORY_MSG_111;Lab - Evite mudança de cor
 HISTORY_MSG_112;--sem uso--
-HISTORY_MSG_113;L*a*b* - Vermelho/película prot.
+HISTORY_MSG_113;Lab - Vermelho/película prot.
 HISTORY_MSG_114;DCB iterações
 HISTORY_MSG_115;Supressão de cores falsas
 HISTORY_MSG_116;DCB aprimoramento
@@ -415,11 +415,11 @@ HISTORY_MSG_164;RGB Curvas - Verde
 HISTORY_MSG_165;RGB Curvas - Azul
 HISTORY_MSG_166;Exposição - Restaurar
 HISTORY_MSG_167;Método Demosaicing
-HISTORY_MSG_168;L*a*b* - Curva CC
-HISTORY_MSG_169;L*a*b* - Curva CH
+HISTORY_MSG_168;Lab - Curva CC
+HISTORY_MSG_169;Lab - Curva CH
 HISTORY_MSG_170;Vibração - Curva HH
-HISTORY_MSG_171;L*a*b* - Curva LC
-HISTORY_MSG_172;L*a*b* - Restringir LC
+HISTORY_MSG_171;Lab - Curva LC
+HISTORY_MSG_172;Lab - Restringir LC
 HISTORY_MSG_173;NR - Recuperação de detalhes
 HISTORY_MSG_174;CIECAM02
 HISTORY_MSG_175;CAM02 - Adaptação CAT02
@@ -492,9 +492,9 @@ HISTORY_MSG_242;VF - Arredondamento
 HISTORY_MSG_243;VC - Raio
 HISTORY_MSG_244;VC - Intensidade
 HISTORY_MSG_245;VC - Centro
-HISTORY_MSG_246;L*a*b* - Curva CL
-HISTORY_MSG_247;L*a*b* - Curva LH
-HISTORY_MSG_248;L*a*b* - Curva HH
+HISTORY_MSG_246;Lab - Curva CL
+HISTORY_MSG_247;Lab - Curva LH
+HISTORY_MSG_248;Lab - Curva HH
 HISTORY_MSG_249;CbDL - Limite
 HISTORY_MSG_250;NR - Aprimorada
 HISTORY_MSG_251;P&amp;B - Algorítimo
@@ -660,7 +660,7 @@ HISTORY_MSG_410;Retinex - Compensação
 HISTORY_MSG_411;Retinex - Intensidade
 HISTORY_MSG_412;Retinex - Gradiente de Gaussian
 HISTORY_MSG_413;Retinex - Contraste
-HISTORY_MSG_414;Retinex - Histograma - Laboratório
+HISTORY_MSG_414;Retinex - Histograma - Lab
 HISTORY_MSG_415;Retinex - Transmissão
 HISTORY_MSG_416;Retinex
 HISTORY_MSG_417;Retinex - Mediana de transmissão
@@ -723,11 +723,12 @@ HISTORY_MSG_489;DRC - Limite
 HISTORY_MSG_490;DRC - Montante
 HISTORY_MSG_491;Balanço de Branco
 HISTORY_MSG_492;Curvas RGB
-HISTORY_MSG_493;L*a*b* Ajustes
+HISTORY_MSG_493;Ajustes Lab
 HISTORY_MSG_CLAMPOOG;Recorte de cor fora do gamut
 HISTORY_MSG_COLORTONING_LABGRID_VALUE;CT - Correção de cor
 HISTORY_MSG_DUALDEMOSAIC_CONTRAST;AMaZE+VNG4 - Limite de contraste
 HISTORY_MSG_HISTMATCHING;Curva de Tom Auto-compatível
+HISTORY_MSG_ICM_OUTPUT_PRIMARIES;Saída - Primárias
 HISTORY_MSG_ICM_OUTPUT_PRIMARIESPrimárias do perfil de saída
 HISTORY_MSG_ICM_OUTPUT_TEMP;Saída IccV4 D iluminante
 HISTORY_MSG_ICM_OUTPUT_TYPE;Tipo de perfil de saída
@@ -760,6 +761,7 @@ ICCPROFCREATOR_COPYRIGHT;Direito Autoral:
 ICCPROFCREATOR_COPYRIGHT_RESET_TOOLTIP;Restaurar para o direito autoral padrão, concedido a "RawTherapee, CC0"
 ICCPROFCREATOR_CUSTOM;Personalizado
 ICCPROFCREATOR_DESCRIPTION;Descrição:
+ICCPROFCREATOR_DESCRIPTION_ADDPARAM;Anexar valores gamma e de declive à descrição
 ICCPROFCREATOR_DESCRIPTION_TOOLTIP;Deixe em branco para configurar a descrição padrão
 ICCPROFCREATOR_GAMMA;Gamma
 ICCPROFCREATOR_ICCVERSION;Versão do perfil gerado:
@@ -898,26 +900,26 @@ MAIN_TAB_RAW;Raw
 MAIN_TAB_RAW_TOOLTIP;Atalho: <b>Alt-r</b>
 MAIN_TAB_TRANSFORM;Transformar
 MAIN_TAB_TRANSFORM_TOOLTIP;Atalho: <b>Alt-t</b>
-MAIN_TOOLTIP_BACKCOLOR0;Cor de fundo da pré-visualização: <b>Baseado no tema</b>\nAtalho: <b>9</b>
-MAIN_TOOLTIP_BACKCOLOR1;Cor de fundo da pré-visualização: <b>Preto</b>\nAtalho: <b>9</b>
-MAIN_TOOLTIP_BACKCOLOR2;Cor de fundo da pré-visualização: <b>Branco</b>\nAtalho: <b>9</b>
-MAIN_TOOLTIP_BACKCOLOR3;Cor de fundo da pré-visualização: <b>Cinza médio</b>\nAtalho: <b>9</b>
+MAIN_TOOLTIP_BACKCOLOR0;Cor de fundo da visualização: <b>Baseado no tema</b>\nAtalho: <b>9</b>
+MAIN_TOOLTIP_BACKCOLOR1;Cor de fundo da visualização: <b>Preto</b>\nAtalho: <b>9</b>
+MAIN_TOOLTIP_BACKCOLOR2;Cor de fundo da visualização: <b>Branco</b>\nAtalho: <b>9</b>
+MAIN_TOOLTIP_BACKCOLOR3;Cor de fundo da visualização: <b>Cinza médio</b>\nAtalho: <b>9</b>
 MAIN_TOOLTIP_BEFOREAFTERLOCK;<b>Travar</b> / <b>Destravar</b> a <b>Antes</b> visualização\n\n<b>Travar</b>: mantenha o <b>Antes</b> visualização inalterada.\nÚtil para avaliar o efeito cumulativo de várias ferramentas.\nAlém disso, comparações podem ser feitas a qualquer momento.\n\n<b>Destravar</b>: o <b>Antes</b> visualização seguinte <b>Depois</b> visualização anterior, mostrando a imagem antes do efeito da ferramenta atualmente utilizada.
 MAIN_TOOLTIP_HIDEHP;Mostrar/Ocultar o painel esquerdo (incluindo o histórico).\nAtalho: <b>l</b>
 MAIN_TOOLTIP_INDCLIPPEDH;Indicação de realce recortado.\nAtalho: <b>&lt;</b>
 MAIN_TOOLTIP_INDCLIPPEDS;Indicação de sombra recortada.\nAtalho: <b>&gt;</b>
-MAIN_TOOLTIP_PREVIEWB;Pré-visualize o <b>Canal Azul</b>.\nAtalho: <b>b</b>
-MAIN_TOOLTIP_PREVIEWFOCUSMASK;Pré-visualize a <b>Máscara de Foco</b>.\nAtalho: <b>Shift-f</b>\n\nMais preciso em imagens com pouca profundidade de campo, baixo ruído e níveis de zoom mais altos.\n\nPara melhorar a precisão da detecção de imagens ruidosas, avalie com zoom menor, cerca de 10-30%.
-MAIN_TOOLTIP_PREVIEWG;Pré-visualize o <b>Canal verde</b>.\nAtalho: <b>g</b>
-MAIN_TOOLTIP_PREVIEWL;Pré-visualize a <b>Luminosidade</b>.\nAtalho: <b>v</b>\n\n0.299*R + 0.587*G + 0.114*B
-MAIN_TOOLTIP_PREVIEWR;Pré-visualize o <b>Canal vermelho</b>.\nAtalho: <b>r</b>
-MAIN_TOOLTIP_PREVIEWSHARPMASK;Pré-visualize a <b>Máscara de Contraste de Nitidez</b>.\nAtalho: <b>Nenhum</b>\n\nSó funciona quando a nitidez e o zoom estão ativados >= 100%.
+MAIN_TOOLTIP_PREVIEWB;Visualização do <b>Canal Azul</b>.\nAtalho: <b>b</b>
+MAIN_TOOLTIP_PREVIEWFOCUSMASK;Visualização da <b>Máscara de Foco</b>.\nAtalho: <b>Shift-f</b>\n\nMais preciso em imagens com pouca profundidade de campo, baixo ruído e níveis de zoom mais altos.\n\nPara melhorar a precisão da detecção de imagens ruidosas, avalie com zoom menor, cerca de 10-30%.
+MAIN_TOOLTIP_PREVIEWG;Visualização do <b>Canal verde</b>.\nAtalho: <b>g</b>
+MAIN_TOOLTIP_PREVIEWL;Visualização da <b>Luminosidade</b>.\nAtalho: <b>v</b>\n\n0.299*R + 0.587*G + 0.114*B
+MAIN_TOOLTIP_PREVIEWR;Visualização do <b>Canal vermelho</b>.\nAtalho: <b>r</b>
+MAIN_TOOLTIP_PREVIEWSHARPMASK;Visualização da <b>Máscara de Contraste de Nitidez</b>.\nAtalho: <b>Nenhum</b>\n\nSó funciona quando a nitidez e o zoom estão ativados >= 100%.
 MAIN_TOOLTIP_QINFO;Informação rápida na imagem.\nAtalho: <b>i</b>
 MAIN_TOOLTIP_SHOWHIDELP1;Mostrar/Ocultar o painel esquerdo.\nShortcut: <b>l</b>
 MAIN_TOOLTIP_SHOWHIDERP1;Mostrar/Ocultar o painel direito.\nAtalho: <b>Alt-l</b>
 MAIN_TOOLTIP_SHOWHIDETP1;Mostrar/Ocultar o painel superior.\nAtalho: <b>Shift-l</b>
 MAIN_TOOLTIP_THRESHOLD;Limite
-MAIN_TOOLTIP_TOGGLE;Alternar o <b>Antes</b>/<b>Depois</b> visualização.\nAtalho: <b>Shift-b</b>
+MAIN_TOOLTIP_TOGGLE;Alternar a visualização <b>Antes</b>/<b>Depois</b>.\nAtalho: <b>Shift-b</b>
 MONITOR_PROFILE_SYSTEM;Sistema padrão
 NAVIGATOR_B;B:
 NAVIGATOR_G;G:
@@ -970,7 +972,7 @@ PARTIALPASTE_HSVEQUALIZER;Equalizador HSV
 PARTIALPASTE_ICMSETTINGS;Configurações de gerenciamento de cores
 PARTIALPASTE_IMPULSEDENOISE;Redução de ruído de impulso
 PARTIALPASTE_IPTCINFO;IPTC
-PARTIALPASTE_LABCURVE;L*a*b* ajustes
+PARTIALPASTE_LABCURVE;Ajustes Lab
 PARTIALPASTE_LENSGROUP;Configurações de Lente
 PARTIALPASTE_LENSPROFILE;Correção de lentes perfiladas
 PARTIALPASTE_LOCALCONTRAST;Contraste local
@@ -1162,7 +1164,7 @@ PREFERENCES_PARSEDEXTADDHINT;Adicione a extensão inserida à lista.
 PREFERENCES_PARSEDEXTDELHINT;Exclua a extensão selecionada da lista.
 PREFERENCES_PARSEDEXTDOWNHINT;Mova a extensão selecionada para baixo na lista.
 PREFERENCES_PARSEDEXTUPHINT;Mova a extensão selecionada para cima na lista.
-PREFERENCES_PREVDEMO;Visualizar o Método Demosaico
+PREFERENCES_PREVDEMO;Visualização do Método Demosaico
 PREFERENCES_PREVDEMO_FAST;Rápido
 PREFERENCES_PREVDEMO_LABEL;Método Demosaicing usado para a visualização em <100% zoom:
 PREFERENCES_PREVDEMO_SIDECAR;Como no PP3
@@ -1181,7 +1183,7 @@ PREFERENCES_PRTINTENT;Intenção de renderização
 PREFERENCES_PRTPROFILE;Perfil de cor
 PREFERENCES_PSPATH;Diretório de instalação do Adobe Photoshop
 PREFERENCES_REMEMBERZOOMPAN;Lembre-se de zoom % e compensar pan
-PREFERENCES_REMEMBERZOOMPAN_TOOLTIP;Lembre-se do zoom % e de compensar o pan da imagem atual ao abrir uma nova imagem.\n\nEsta opção só funciona em "Modo da Aba do Editor Único" e quando "o método Demosaicing utilizado para a pré-visualização em <100% zoom" está definido como "Como no PP3".
+PREFERENCES_REMEMBERZOOMPAN_TOOLTIP;Lembre-se do zoom % e de compensar o pan da imagem atual ao abrir uma nova imagem.\n\nEsta opção só funciona em "Modo da Aba do Editor Único" e quando "o método Demosaicing utilizado para a visualização em <100% zoom" está definido como "Como no PP3".
 PREFERENCES_RGBDTL_LABEL;Número máximo de threads para Redução de Ruído e Níveis de Wavelet
 PREFERENCES_RGBDTL_TOOLTIP;Deixe a configuração em "0" para usar automaticamente o maior número de threads possível. Quanto mais threads rodarem em paralelo, mais rápido será o cálculo. Consulte o RawPedia para requisitos de memória.
 PREFERENCES_SAVE_TP_OPEN_NOW;Salvar ferramentas no estado recolhidas/expandididas agora
@@ -1306,7 +1308,7 @@ THRESHOLDSELECTOR_HINT;Segure a <b>Shift</b> tecla para mover pontos de controle
 THRESHOLDSELECTOR_T;Superior
 THRESHOLDSELECTOR_TL;Superior esquerdo
 THRESHOLDSELECTOR_TR;Superior direito
-TOOLBAR_TOOLTIP_COLORPICKER;Seletor de Cores com Trava\n\nQuando ativado:\nClique na pré-visualização com o botão esquerdo do mouse para adicionar um seletor de cores\nArraste-o enquanto pressiona o botão esquerdo do mouse\nExclua o seletor de cores com um clique com o botão direito do mouse\nExclua todos os seletores de cores com Shift + clique com o botão direito do mouse\nClique com o botão direito do mouse em qualquer seletor de cores para voltar para a ferramenta de Mão
+TOOLBAR_TOOLTIP_COLORPICKER;Seletor de Cores com Trava\n\nQuando ativado:\nClique na visualização com o botão esquerdo do mouse para adicionar um seletor de cores\nArraste-o enquanto pressiona o botão esquerdo do mouse\nExclua o seletor de cores com um clique com o botão direito do mouse\nExclua todos os seletores de cores com Shift + clique com o botão direito do mouse\nClique com o botão direito do mouse em qualquer seletor de cores para voltar para a ferramenta de Mão
 TOOLBAR_TOOLTIP_CROP;<b>Cortar</b> seleção.\nAtalho: <b>c</b>\nMover a área de corte usando <b>Shift-arrastar mouse</b>
 TOOLBAR_TOOLTIP_HAND;Ferramenta de mão.\nAtalho: <b>h</b>
 TOOLBAR_TOOLTIP_STRAIGHTEN;<b>Endireitar</b> / <b>rotação fina</b>.\nAtalho: <b>s</b>\n\nIndique a vertical ou horizontal, desenhando uma linha guia sobre a visualização da imagem. O ângulo de rotação será mostrado ao lado da linha da guia. O centro de rotação é o centro geométrico da imagem.
@@ -1324,7 +1326,7 @@ TP_BWMIX_CURVEEDITOR1;Curva 'antes'
 TP_BWMIX_CURVEEDITOR2;Curva 'depois'
 TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP;Curva de tom, depois B&amp;W conversão, no final do tratamento.
 TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP;Curva de tom, pouco antes B&amp;W conversão.\nPode levar em conta os componentes de cor.
-TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Luminância de acordo com a matiz L=f(H).\nPreste atenção aos valores extremos, pois eles podem causar artefatos.
+TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Luminância de acordo com matiz L=f(H).\nPreste atenção aos valores extremos, pois eles podem causar artefatos.
 TP_BWMIX_FILTER;Filtro de Cores
 TP_BWMIX_FILTER_BLUE;Azul
 TP_BWMIX_FILTER_BLUEGREEN;Azul-Verde
@@ -1366,7 +1368,7 @@ TP_BWMIX_SET_RGBABS;RGB Aboluto
 TP_BWMIX_SET_RGBREL;RGB Relativo
 TP_BWMIX_SET_ROYGCBPMABS;ROYGCBPM Aboluto
 TP_BWMIX_SET_ROYGCBPMREL;ROYGCBPM Relativo
-TP_BWMIX_TCMODE_FILMLIKE;B&W Gostar Filme
+TP_BWMIX_TCMODE_FILMLIKE;B&W Similar a Filme
 TP_BWMIX_TCMODE_SATANDVALBLENDING;B&W Saturação e mistura de valores
 TP_BWMIX_TCMODE_STANDARD;B&W Padrão
 TP_BWMIX_TCMODE_WEIGHTEDSTD;B&W Padrão Ponderado
@@ -1377,7 +1379,7 @@ TP_CACORRECTION_RED;Vermelho
 TP_CBDL_AFT;Preto-e-Branco Depois
 TP_CBDL_BEF;Preto-e-Branco Antes
 TP_CBDL_METHOD;Processo localizado
-TP_CBDL_METHOD_TOOLTIP;Escolha se a ferramenta de Contraste por Níveis de Detalhe deve ser posicionada após a ferramenta de Preto-e-Branco, que funciona no espaço L*a*b*, ou antes dele, que funciona no espaço RGB.
+TP_CBDL_METHOD_TOOLTIP;Escolha se a ferramenta de Contraste por Níveis de Detalhe deve ser posicionada após a ferramenta de Preto-e-Branco, que funciona no espaço Lab, ou antes dele, que funciona no espaço RGB.
 TP_CHMIXER_BLUE;Canal azul
 TP_CHMIXER_GREEN;Canal verde
 TP_CHMIXER_LABEL;Misturador de canais
@@ -1401,31 +1403,31 @@ TP_COLORAPP_ALGO_TOOLTIP;Permite escolher entre subconjuntos de parâmetros ou t
 TP_COLORAPP_BADPIXSL;Filtro de pixel quente/ruim
 TP_COLORAPP_BADPIXSL_TOOLTIP;Supressão de pixels quentes/ruins (cores vivas).\n0 = Sem efeito\n1 = Mediano\n2 = Gaussian.\nAlternativamente, ajuste a imagem para evitar sombras muito escuras.\n\nEsses artefatos são devido a limitações do CIECAM02.
 TP_COLORAPP_BRIGHT;Brilho (Q)
-TP_COLORAPP_BRIGHT_TOOLTIP;O brilho no CIECAM02 leva em consideração a luminosidade do branco e difere do L*a*b* e do brilho RGB.
+TP_COLORAPP_BRIGHT_TOOLTIP;O brilho no CIECAM02 leva em consideração a luminosidade do branco e difere do brilho na Lab e no RGB.
 TP_COLORAPP_CHROMA;Croma (C)
 TP_COLORAPP_CHROMA_M;Colorido (M)
-TP_COLORAPP_CHROMA_M_TOOLTIP;O colorido no CIECAM02 difere de L*a*b* e do colorido do RGB.
+TP_COLORAPP_CHROMA_M_TOOLTIP;O colorido no CIECAM02 difere do colorido na Lab e no RGB.
 TP_COLORAPP_CHROMA_S;Saturação (S)
-TP_COLORAPP_CHROMA_S_TOOLTIP;A saturação no CIECAM02 difere de L*a*b* e da saturação do RGB.
-TP_COLORAPP_CHROMA_TOOLTIP;Croma no CIECAM02 difere de L*a*b* e da croma no RGB.
+TP_COLORAPP_CHROMA_S_TOOLTIP;A saturação no CIECAM02 difere da saturação na Lab e no RGB.
+TP_COLORAPP_CHROMA_TOOLTIP;Croma no CIECAM02 difere da croma na Lab e no RGB.
 TP_COLORAPP_CIECAT_DEGREE;Adaptação CAT02
 TP_COLORAPP_CONTRAST;Contraste (J)
 TP_COLORAPP_CONTRAST_Q;Contraste (Q)
-TP_COLORAPP_CONTRAST_Q_TOOLTIP;Difere de L*a*b* e do contraste no RGB.
-TP_COLORAPP_CONTRAST_TOOLTIP;Difere de L*a*b* e do contraste no RGB.
+TP_COLORAPP_CONTRAST_Q_TOOLTIP;Difere do contraste na Lab e no RGB.
+TP_COLORAPP_CONTRAST_TOOLTIP;Difere do contraste na Lab e no RGB.
 TP_COLORAPP_CURVEEDITOR1;Curva de tom 1
-TP_COLORAPP_CURVEEDITOR1_TOOLTIP;Mostra o histograma de L* (L*a*b*) antes de CIECAM02.\nSe a caixa de seleção "Mostrar histogramas de saída do CIECAM02 em curvas" estiver ativada, mostra o histograma de J ou Q depois de CIECAM02.\n\nJ e Q não são mostrados no painel principal do histograma.\n\nPara a saída final, consulte o painel principal do histograma.
+TP_COLORAPP_CURVEEDITOR1_TOOLTIP;Mostra o histograma de L* (Lab) antes de CIECAM02.\nSe a caixa de seleção "Mostrar histogramas de saída do CIECAM02 em curvas" estiver ativada, mostra o histograma de J ou Q depois de CIECAM02.\n\nJ e Q não são mostrados no painel principal do histograma.\n\nPara a saída final, consulte o painel principal do histograma.
 TP_COLORAPP_CURVEEDITOR2;Curva de tom 2
 TP_COLORAPP_CURVEEDITOR2_TOOLTIP;O mesmo uso da segunda curva de tons de exposição.
 TP_COLORAPP_CURVEEDITOR3;Curva de cor
-TP_COLORAPP_CURVEEDITOR3_TOOLTIP;Ajustar croma, saturação ou colorido.\n\nMostra o histograma da cromaticidade (L*a*b*) antes de CIECAM02.\nSe a caixa de seleção "Mostrar histogramas de saída do CIECAM02 em curvas" estiver ativada, mostra o histograma de C, s ou M depois de CIECAM02.\n\nC, s e M não são mostrados no painel principal do histograma.\nPara a saída final, consulte o painel principal do histograma.
+TP_COLORAPP_CURVEEDITOR3_TOOLTIP;Ajustar croma, saturação ou colorido.\n\nMostra o histograma da cromaticidade (Lab) antes de CIECAM02.\nSe a caixa de seleção "Mostrar histogramas de saída do CIECAM02 em curvas" estiver ativada, mostra o histograma de C, s ou M depois de CIECAM02.\n\nC, s e M não são mostrados no painel principal do histograma.\nPara a saída final, consulte o painel principal do histograma.
 TP_COLORAPP_DATACIE;Histogramas de saída em curvas do CIECAM02
-TP_COLORAPP_DATACIE_TOOLTIP;Quando ativado, os histogramas em curvas do CIECAM02 mostram valores/intervalos aproximados para J ou Q, e C, s ou M após os ajustes do CIECAM02.\nEsta seleção não afeta o painel principal do histograma.\n\nQuando desativado, os histogramas em curvas do CIECAM02 mostram L*a*b* valores antes dos ajustes do CIECAM02.
+TP_COLORAPP_DATACIE_TOOLTIP;Quando ativado, os histogramas em curvas do CIECAM02 mostram valores/intervalos aproximados para J ou Q, e C, s ou M após os ajustes do CIECAM02.\nEsta seleção não afeta o painel principal do histograma.\n\nQuando desativado, os histogramas em curvas do CIECAM02 mostram valores Lab antes dos ajustes do CIECAM02.
 TP_COLORAPP_DEGREE_AUTO_TOOLTIP;Se a caixa de seleção estiver marcada (recomendado), RawTherapee calcula um valor ótimo, que será usado pelo CAT02, e também para todo o CIECAM02.\nPara definir o valor manualmente, primeiro desmarque a caixa de seleção (valores acima de 65 são recomendados).
 TP_COLORAPP_DEGREE_TOOLTIP;Quantidade de Adaptação Cromática CIE Transformar 2002.
 TP_COLORAPP_FREE;Temp+verde livre + CAT02 + [saída]
-TP_COLORAPP_GAMUT;Controle Gamut (L*a*b*)
-TP_COLORAPP_GAMUT_TOOLTIP;Permitir controle gamut no modo L*a*b*.
+TP_COLORAPP_GAMUT;Controle Gamut (Lab)
+TP_COLORAPP_GAMUT_TOOLTIP;Permitir controle gamut no modo Lab.
 TP_COLORAPP_HUE;Matiz (h)
 TP_COLORAPP_HUE_TOOLTIP;Matiz (h) - ângulo entre 0° e 360°.
 TP_COLORAPP_LABEL;Modelo de Aparência de Cor CIE 2002
@@ -1433,7 +1435,7 @@ TP_COLORAPP_LABEL_CAM02;Ajustes de Imagem
 TP_COLORAPP_LABEL_SCENE;Condições de Cena
 TP_COLORAPP_LABEL_VIEWING;Condições de Visualização
 TP_COLORAPP_LIGHT;Claridade (J)
-TP_COLORAPP_LIGHT_TOOLTIP;Claridade no CIECAM02 difere de L*a*b* e da claridade em RGB.
+TP_COLORAPP_LIGHT_TOOLTIP;Claridade no CIECAM02 difere da claridade na Lab e no RGB.
 TP_COLORAPP_MODEL;Modelo de Ponto Branco
 TP_COLORAPP_MODEL_TOOLTIP;Modelo de Ponto Branco.\n\n<b>WB [RT] + [saída]</b>: O balanço de branco do RT é usado para a cena, CIECAM02 está definido para D50, e o balanço de branco do dispositivo de saída é definido em Condições de Visualização.\n\n<b>WB [RT+CAT02] + [saída]</b>: As configurações de balanço de branco do RT são usadas pelo CAT02 e o balanço de branco do dispositivo de saída é definido em Condições de Visualização.\n\n<b>Temp+verde livre + CAT02 + [saída]:</b> temp e verde são selecionados pelo usuário, o balanço de branco do dispositivo de saída é definido em Condições de Visualização.
 TP_COLORAPP_NEUTRAL;Restaurar
@@ -1460,7 +1462,7 @@ TP_COLORAPP_TCMODE_LIGHTNESS;Claridade
 TP_COLORAPP_TCMODE_SATUR;Saturação
 TP_COLORAPP_TEMP_TOOLTIP;Para selecionar um iluminante, defina sempre Matiz=1.\n\nA temp=2856\nD50 temp=5003\nD55 temp=5503\nD65 temp=6504\nD75 temp=7504
 TP_COLORAPP_TONECIE;Mapeamento de tom usando CIECAM02
-TP_COLORAPP_TONECIE_TOOLTIP;Se esta opção estiver desativada, o mapeamento de tom é feito no espaço L*a*b*.\nSe esta opção estiver habilitada, o mapeamento de tom é feito usando CIECAM02.\nA ferramenta de Mapeamento de Tom deve estar ativada para que esta configuração tenha efeito.
+TP_COLORAPP_TONECIE_TOOLTIP;Se esta opção estiver desativada, o mapeamento de tom é feito no espaço Lab.\nSe esta opção estiver habilitada, o mapeamento de tom é feito usando CIECAM02.\nA ferramenta de Mapeamento de Tom deve estar ativada para que esta configuração tenha efeito.
 TP_COLORAPP_WBCAM;WB [RT+CAT02] + [saída]
 TP_COLORAPP_WBRT;WB [RT] + [saída]
 TP_COLORAPP_YB;Yb% (média luminância)
@@ -1475,15 +1477,15 @@ TP_COLORTONING_COLOR;Cor
 TP_COLORTONING_CURVEEDITOR_CL_TOOLTIP;Opacidade de croma em função da luminância oC=f(L)
 TP_COLORTONING_HIGHLIGHT;Realces
 TP_COLORTONING_HUE;Matiz
-TP_COLORTONING_LAB;Mistura L*a*b*
+TP_COLORTONING_LAB;Mistura Lab
 TP_COLORTONING_LABEL;Tonificação de Cor
-TP_COLORTONING_LABGRID;L*a*b* grade de correção de cores
+TP_COLORTONING_LABGRID;Grade Lab de correção de cores
 TP_COLORTONING_LABGRID_VALUES;HL: a=%1 b=%2\nS: a=%3 b=%4
 TP_COLORTONING_LUMA;Luminância
 TP_COLORTONING_LUMAMODE;Preserve a luminância
 TP_COLORTONING_LUMAMODE_TOOLTIP;Se ativado, quando você mudar de cor (vermelho, verde, ciano, azul, etc.) a luminância de cada pixel é preservada.
 TP_COLORTONING_METHOD;Método
-TP_COLORTONING_METHOD_TOOLTIP;"L*a*b* mistura", "Controles deslizantes RGB" e "Curvas RGB" usar mistura de cores interpoladas.\n"Balanço de Cor (Sombras/Meio-tons/Realces)" e "Saturação 2 cores" use cores diretas.\n\nA ferramenta Preto-e-Branco pode ser ativada ao usar qualquer método, que permita a tonificação de cores.
+TP_COLORTONING_METHOD_TOOLTIP;"Mistura Lab", "Controles deslizantes RGB" e "Curvas RGB" usar mistura de cores interpoladas.\n"Balanço de Cor (Sombras/Meio-tons/Realces)" e "Saturação 2 cores" use cores diretas.\n\nA ferramenta Preto-e-Branco pode ser ativada ao usar qualquer método, que permita a tonificação de cores.
 TP_COLORTONING_MIDTONES;Meio-tons
 TP_COLORTONING_NEUTRAL;Restaurar controles deslizantes
 TP_COLORTONING_NEUTRAL_TIP;Restaurar todos os valores (Sombras, Meio-tons, Realces) para o padrão.
@@ -1538,13 +1540,13 @@ TP_DIRPYRDENOISE_CHROMINANCE_MANUAL;Manual
 TP_DIRPYRDENOISE_CHROMINANCE_MASTER;Crominância - Mestre
 TP_DIRPYRDENOISE_CHROMINANCE_METHOD;Método
 TP_DIRPYRDENOISE_CHROMINANCE_METHODADVANCED_TOOLTIP;Manual\nAtua na imagem completa.\nControlas as configurações de redução de ruído manualmente.\n\nGlobal automático\nAtua na imagem completa.\n9 zonas são usadas para calcular uma configuração global de redução de ruído de crominância.\n\nVisualização\nAtua em toda a imagem.\nA parte da imagem visível na visualização é usada para calcular as configurações globais de redução de ruído de crominância.
-TP_DIRPYRDENOISE_CHROMINANCE_METHOD_TOOLTIP;Manual\nAtua na imagem completa.\nControlas as configurações de redução de ruído manualmente.\n\nGlobal automático\nAtua na imagem completa.\n9 zonas são usadas para calcular uma configuração global de redução de ruído de crominância.\n\nMulti-zonas automáticas\nSem pré-visualização - funciona apenas durante a gravação, usando o método "Pré-visualização" para ajustar o tamanho do mosaico e o centro com o tamanho da visualização e o centro, podes ter uma idéia dos resultados esperados.\nA imagem é dividida em mosaicos (cerca de 10 a 70, dependendo do tamanho da imagem) e cada mosaico recebe suas próprias configurações de redução de ruído de crominância.\n\nPré-visualização\nAtua em toda a imagem.\nA parte da imagem visível na visualização é usada para calcular as configurações globais de redução de ruído de crominância.
-TP_DIRPYRDENOISE_CHROMINANCE_PMZ;Pré-visualização  multi-zonas
-TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW;Pré-visualização
-TP_DIRPYRDENOISE_CHROMINANCE_PREVIEWRESIDUAL_INFO_TOOLTIP;Exibe os níveis de ruído remanescentes da parte da imagem visível na visualização após wavelet.\n\n>300 Muito ruidoso\n100-300 Ruidoso\n50-100 Pouco ruidoso\n<50 Ruído muito baixo\n\nCuidado, os valores serão diferentes entre RGB e o modo L*a*b*. Os valores RGB são menos precisos porque o modo RGB não separa completamente luminância e crominância.
-TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_INFO;Pré-visualização tamanho=%1, Centro: Px=%2  Py=%3
-TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_NOISEINFO;Pré-visualização ruído: Médio=%1  Alto=%2
-TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_NOISEINFO_EMPTY;Pré-visualização ruído: Médio= -   Alto= -
+TP_DIRPYRDENOISE_CHROMINANCE_METHOD_TOOLTIP;Manual\nAtua na imagem completa.\nControlas as configurações de redução de ruído manualmente.\n\nGlobal automático\nAtua na imagem completa.\n9 zonas são usadas para calcular uma configuração global de redução de ruído de crominância.\n\nMulti-zonas automáticas\nSem visualização - funciona apenas durante a gravação, usando o método "Visualização" para ajustar o tamanho do mosaico e o centro com o tamanho da visualização e o centro, podes ter uma idéia dos resultados esperados.\nA imagem é dividida em mosaicos (cerca de 10 a 70, dependendo do tamanho da imagem) e cada mosaico recebe suas próprias configurações de redução de ruído de crominância.\n\nVisualização\nAtua em toda a imagem.\nA parte da imagem visível na visualização é usada para calcular as configurações globais de redução de ruído de crominância.
+TP_DIRPYRDENOISE_CHROMINANCE_PMZ;Visualização  multi-zonas
+TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW;Visualização
+TP_DIRPYRDENOISE_CHROMINANCE_PREVIEWRESIDUAL_INFO_TOOLTIP;Exibe os níveis de ruído remanescentes da parte da imagem visível na visualização após wavelet.\n\n>300 Muito ruidoso\n100-300 Ruidoso\n50-100 Pouco ruidoso\n<50 Ruído muito baixo\n\nCuidado, os valores serão diferentes entre RGB e o modo Lab. Os valores RGB são menos precisos porque o modo RGB não separa completamente luminância e crominância.
+TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_INFO;Visualização tamanho=%1, Centro: Px=%2  Py=%3
+TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_NOISEINFO;Visualização ruído: Médio=%1  Alto=%2
+TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_NOISEINFO_EMPTY;Visualização ruído: Médio= -   Alto= -
 TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_TILEINFO;Mosaico tamanho=%1, Centro: Tx=%2  Ty=%3
 TP_DIRPYRDENOISE_CHROMINANCE_REDGREEN;Crominância - Vermelho-Verde
 TP_DIRPYRDENOISE_ENH;Modo avançado
@@ -1556,9 +1558,9 @@ TP_DIRPYRDENOISE_LUMINANCE_DETAIL;Recuperação de detalhes
 TP_DIRPYRDENOISE_LUMINANCE_FRAME;Luminância
 TP_DIRPYRDENOISE_LUMINANCE_SMOOTHING;Luminância
 TP_DIRPYRDENOISE_MAIN_COLORSPACE;Espaço de cor
-TP_DIRPYRDENOISE_MAIN_COLORSPACE_LAB;L*a*b*
+TP_DIRPYRDENOISE_MAIN_COLORSPACE_LAB;Lab
 TP_DIRPYRDENOISE_MAIN_COLORSPACE_RGB;RGB
-TP_DIRPYRDENOISE_MAIN_COLORSPACE_TOOLTIP;Para imagens raw, os métodos RGB ou L*a*b* podem ser usados.\n\nPara imagens não-raw, o método L*a*b* será usado, independentemente da seleção.
+TP_DIRPYRDENOISE_MAIN_COLORSPACE_TOOLTIP;Para imagens raw, os métodos RGB ou Lab podem ser usados.\n\nPara imagens não-raw, o método Lab será usado, independentemente da seleção.
 TP_DIRPYRDENOISE_MAIN_GAMMA;Gamma
 TP_DIRPYRDENOISE_MAIN_GAMMA_TOOLTIP;Gamma varia a intensidade da redução de ruído em toda a gama de tons. Valores menores atuam sobre sombras, enquanto valores maiores tem efeito sobre tons mais claros.
 TP_DIRPYRDENOISE_MAIN_MODE;Modo
@@ -1567,11 +1569,11 @@ TP_DIRPYRDENOISE_MAIN_MODE_CONSERVATIVE;Conservador
 TP_DIRPYRDENOISE_MAIN_MODE_TOOLTIP;"Conservador" preserva padrões de croma de baixa frequência, enquanto "agressivo" os oblitera.
 TP_DIRPYRDENOISE_MEDIAN_METHOD;Método mediano
 TP_DIRPYRDENOISE_MEDIAN_METHOD_CHROMINANCE;Apenas Croma
-TP_DIRPYRDENOISE_MEDIAN_METHOD_LAB;L*a*b*
+TP_DIRPYRDENOISE_MEDIAN_METHOD_LAB;Lab
 TP_DIRPYRDENOISE_MEDIAN_METHOD_LABEL;Filtro Mediano
 TP_DIRPYRDENOISE_MEDIAN_METHOD_LUMINANCE;Apenas Luminância
 TP_DIRPYRDENOISE_MEDIAN_METHOD_RGB;RGB
-TP_DIRPYRDENOISE_MEDIAN_METHOD_TOOLTIP;Ao usar os métodos "Apenas Luminância" e "L*a*b*", a filtragem mediana será realizada logo após a etapa wavelet no pipeline de redução de ruído.\nAo usar o modo "RGB", ele será executado no final do pipeline de redução de ruído.
+TP_DIRPYRDENOISE_MEDIAN_METHOD_TOOLTIP;Ao usar os métodos "Apenas Luminância" e "Lab", a filtragem mediana será realizada logo após a etapa wavelet no pipeline de redução de ruído.\nAo usar o modo "RGB", ele será executado no final do pipeline de redução de ruído.
 TP_DIRPYRDENOISE_MEDIAN_METHOD_WEIGHTED;Pesada L* (pequeno) + a*b* (normal)
 TP_DIRPYRDENOISE_MEDIAN_PASSES;Iterações medianas
 TP_DIRPYRDENOISE_MEDIAN_PASSES_TOOLTIP;A aplicação de três iterações de filtro mediano com tamanho de janela 3×3 frequentemente dá resultados melhores do que usar uma iteração de filtro mediano com tamanho de janela 7×7.
@@ -1608,7 +1610,7 @@ TP_EPD_LABEL;Mapeamento de Tom
 TP_EPD_REWEIGHTINGITERATES;Reponderando iterações
 TP_EPD_SCALE;Escala
 TP_EPD_STRENGTH;Intensidade
-TP_EPD_TOOLTIP;O mapeamento de tom é possível no modo L*a*b*  (padão) e no modo CIECAM02.\n\nQuando no modo L*a*b*, o mapeamento de tom também pode ser usado na imagem residual da ferramenta de Níveis de Wavelet.\n\nPara ativar o modo de mapeamento de tom CIECAM02, habilite as seguintes configurações:\n1. CIECAM02\n2. Algorítimo = "Brilho + Colorido (QM)"\n3. "Mapeamento de tom usando o brilho do CIECAM02 (Q)"
+TP_EPD_TOOLTIP;O mapeamento de tom é possível no modo Lab (padrão) e no modo CIECAM02.\n\nQuando no modo Lab, o mapeamento de tom também pode ser usado na imagem residual da ferramenta de Níveis de Wavelet.\n\nPara ativar o modo de mapeamento de tom CIECAM02, habilite as seguintes configurações:\n1. CIECAM02\n2. Algorítimo = "Brilho + Colorido (QM)"\n3. "Mapeamento de tom usando o brilho do CIECAM02 (Q)"
 TP_EXPOSURE_AUTOLEVELS;Níveis Automáticos
 TP_EXPOSURE_AUTOLEVELS_TIP;Alterna a execução dos Níveis Automáticos para definir automaticamente os valores do controle deslizante de Exposição baseado numa análise de imagem.\nHabilita a Reconstrução de Realce se necessário.
 TP_EXPOSURE_BLACKLEVEL;Preto
@@ -1628,7 +1630,7 @@ TP_EXPOSURE_HISTMATCHING;Curva de Tom Auto-Combinada
 TP_EXPOSURE_HISTMATCHING_TOOLTIP;Ajusta automaticamente controles deslizantes e curvas (exceto compensação de exposição) para corresponder à aparência da miniatura JPEG incorporada.
 TP_EXPOSURE_LABEL;Exposição
 TP_EXPOSURE_SATURATION;Saturação
-TP_EXPOSURE_TCMODE_FILMLIKE;Gostar filme
+TP_EXPOSURE_TCMODE_FILMLIKE;Similar a filme
 TP_EXPOSURE_TCMODE_LABEL1;Modo de curva 1
 TP_EXPOSURE_TCMODE_LABEL2;Modo de curva 2
 TP_EXPOSURE_TCMODE_LUMINANCE;Luminância
@@ -1656,7 +1658,7 @@ TP_GAMMA_CURV;Gamma
 TP_GAMMA_FREE;Gamma livre
 TP_GAMMA_OUTPUT;Gamma de saída
 TP_GAMMA_SLOP;Declive (linear)
-TP_GENERAL_11SCALE_TOOLTIP;Os efeitos dessa ferramenta só são visíveis ou são precisos numa escala prévia de 1:1.
+TP_GENERAL_11SCALE_TOOLTIP;Os efeitos dessa ferramenta só são visíveis ou são precisos numa escala de visualização de 1:1.
 TP_GRADIENT_CENTER;Centro
 TP_GRADIENT_CENTER_X;Centro X
 TP_GRADIENT_CENTER_X_TOOLTIP;Deslocar gradiente para a esquerda (valores negativos) ou para a direita (valores positivos).
@@ -1744,19 +1746,19 @@ TP_LABCURVE_CURVEEDITOR_CC_RANGE1;Neutro
 TP_LABCURVE_CURVEEDITOR_CC_RANGE2;Fosco
 TP_LABCURVE_CURVEEDITOR_CC_RANGE3;Pastel
 TP_LABCURVE_CURVEEDITOR_CC_RANGE4;Saturado
-TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP;Cromaticidade de acordo com a cromaticidade C=f(C)
+TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP;Cromaticidade de acordo com cromaticidade C=f(C)
 TP_LABCURVE_CURVEEDITOR_CH;CH
-TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP;Cromaticidade de acordo com a matiz C=f(H)
+TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP;Cromaticidade de acordo com matiz C=f(H)
 TP_LABCURVE_CURVEEDITOR_CL;CL
-TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP;Cromaticidade de acordo com a luminância C=f(L)
+TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP;Cromaticidade de acordo com luminância C=f(L)
 TP_LABCURVE_CURVEEDITOR_HH;HH
-TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP;Matiza de acordo com a matiz H=f(H)
+TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP;Matiz de acordo com matiz H=f(H)
 TP_LABCURVE_CURVEEDITOR_LC;LC
-TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP;Luminância de acordo com a cromaticidade L=f(C)
+TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP;Luminância de acordo com cromaticidade L=f(C)
 TP_LABCURVE_CURVEEDITOR_LH;LH
-TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP;Luminância de acrodo com a matiz L=f(H)
-TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP;Luminância de acorodo com a luminância L=f(L)
-TP_LABCURVE_LABEL;L*a*b* Ajustes
+TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP;Luminância de acordo com matiz L=f(H)
+TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP;Luminância de acordo com luminância L=f(L)
+TP_LABCURVE_LABEL;Ajustes Lab
 TP_LABCURVE_LCREDSK;Restringir o LC aos tons vermelho e cor de pele
 TP_LABCURVE_LCREDSK_TIP;Se ativada, a curva LC afeta somente tons vermelhos e cor de pele.\nSe desativado, aplica-se a todos os tons.
 TP_LABCURVE_RSTPROTECTION;Proteção para tons verrmelho e cor de pele
@@ -1806,8 +1808,8 @@ TP_PREPROCESS_LINEDENOISE_DIRECTION_VERTICAL;Vertical
 TP_PREPROCESS_NO_FOUND;Nenhum encontrado
 TP_PREPROCESS_PDAFLINESFILTER;Filtro de linhas PDAF
 TP_PREPROCESS_PDAFLINESFILTER_TOOLTIP;Tenta suprimir o ruído de faixas causado por pixels PDAF no sensor, ocorrendo com algumas câmeras mirrorless da Sony em algumas cenas em contraluz com "flare" visível.
-TP_PRSHARPENING_LABEL;Pós-Redimensionamento de Nitidez
-TP_PRSHARPENING_TOOLTIP;Focaliza a imagem após o redimensionamento. Funciona somente quando o método de redimensionamento "Lanczos" é usado. É impossível visualizar os efeitos dessa ferramenta. Veja RawPedia para instruções de uso.
+TP_PRSHARPENING_LABEL;Nitidez Pós-Redimensionamento
+TP_PRSHARPENING_TOOLTIP;Focaliza a imagem após o redimensionamento. Funciona somente quando o método de redimensionamento "Lanczos" é usado. É impossível a visualização dos efeitos dessa ferramenta. Veja RawPedia para instruções de uso.
 TP_RAWCACORR_AUTO;Auto correção
 TP_RAWCACORR_CABLUE;Azul
 TP_RAWCACORR_CARED;Vermelho
@@ -1908,13 +1910,13 @@ TP_RESIZE_SPECIFY;Especificar:
 TP_RESIZE_W;Largura:
 TP_RESIZE_WIDTH;Largura
 TP_RETINEX_CONTEDIT_HSL;Equalizador de histograma HSL
-TP_RETINEX_CONTEDIT_LAB;Equalizador de histograma L*a*b*
+TP_RETINEX_CONTEDIT_LAB;Equalizador de histograma Lab
 TP_RETINEX_CONTEDIT_LH;Equalizador de matiz
 TP_RETINEX_CONTEDIT_MAP;Equalizador de máscara
 TP_RETINEX_CURVEEDITOR_CD;L=f(L)
-TP_RETINEX_CURVEEDITOR_CD_TOOLTIP;Luminância de acordo com a luminância L=f(L)\nCorrija dados raw para reduzir halos e artefatos.
+TP_RETINEX_CURVEEDITOR_CD_TOOLTIP;Luminância de acordo com luminância L=f(L)\nCorrija dados raw para reduzir halos e artefatos.
 TP_RETINEX_CURVEEDITOR_LH;Intensidade=f(M)
-TP_RETINEX_CURVEEDITOR_LH_TOOLTIP;Intensidade de acordo com a Intensidade da matiz=f(M)\nEsta curva também atua no croma ao usar o método retinex "Realce".
+TP_RETINEX_CURVEEDITOR_LH_TOOLTIP;Intensidade de acordo com Intensidade do matiz=f(M)\nEsta curva também atua no croma ao usar o método retinex "Realce".
 TP_RETINEX_CURVEEDITOR_MAP;L=f(L)
 TP_RETINEX_CURVEEDITOR_MAP_TOOLTIP;Esta curva pode ser aplicada sozinha ou com uma máscara Gaussiana ou uma máscara wavelet.\nCuidado com os artefatos!
 TP_RETINEX_EQUAL;Equalizador
@@ -1946,7 +1948,7 @@ TP_RETINEX_ITERF;Mapeamento de tom
 TP_RETINEX_ITER_TOOLTIP;Simula um operador de mapeamento de tom.\nValores altos aumentam o tempo de processamento.
 TP_RETINEX_LABEL;Retinex
 TP_RETINEX_LABEL_MASK;Máscara
-TP_RETINEX_LABSPACE;L*a*b*
+TP_RETINEX_LABSPACE;Lab
 TP_RETINEX_LOW;Baixo
 TP_RETINEX_MAP;Método de máscara
 TP_RETINEX_MAP_GAUS;Máscara gaussiana
@@ -2167,7 +2169,7 @@ TP_WAVELET_LEVDIR_SUP;Acima do nível
 TP_WAVELET_LEVELS;Níveis Wavelet
 TP_WAVELET_LEVELS_TOOLTIP;Escolha o número de níveis de detalhes para os quais a imagem será decomposta. Mais níveis requerem mais RAM e requerem um longo tempo de processamento.
 TP_WAVELET_LEVF;Contraste
-TP_WAVELET_LEVLABEL;Visualizar níveis máximos possíveis = %1
+TP_WAVELET_LEVLABEL;Visualização dos níveis máximos possíveis = %1
 TP_WAVELET_LEVONE;Nível 2
 TP_WAVELET_LEVTHRE;Nível 4
 TP_WAVELET_LEVTWO;Nível 3
@@ -2264,7 +2266,7 @@ TP_WBALANCE_SOLUX35;Solux 3500K
 TP_WBALANCE_SOLUX41;Solux 4100K
 TP_WBALANCE_SOLUX47;Solux 4700K (vendor)
 TP_WBALANCE_SOLUX47_NG;Solux 4700K (Galeria Nat.)
-TP_WBALANCE_SPOTWB;Use the pipette to pick the white balance from a neutral patch in the preview.
+TP_WBALANCE_SPOTWB;Use a pipeta para escolher o balanço de branco de um ponto neutro na visualização.
 TP_WBALANCE_TEMPBIAS;Viés de temperatura AWB
 TP_WBALANCE_TEMPBIAS_TOOLTIP;Permite alterar o cálculo do "balanço de branco automático"\ninclinando-o para temperaturas mais quentes ou mais frias. O viés\né expresso como uma porcentagem da temperatura calculada,\npara que o resultado seja dado por "Temperatura calculada + Temperatura calculada * viés".
 TP_WBALANCE_TEMPERATURE;Temperatura
@@ -2279,10 +2281,3 @@ ZOOMPANEL_ZOOMFITCROPSCREEN;Ajustar o corte à tela\nAtalho: <b>f</b>
 ZOOMPANEL_ZOOMFITSCREEN;Ajustar toda a imagem à tela\nAtalho: <b>Alt</b>-<b>f</b>
 ZOOMPANEL_ZOOMIN;Mais Zoom\nAtalho: <b>+</b>
 ZOOMPANEL_ZOOMOUT;Menos Zoom\nAtalho: <b>-</b>
-
-!!!!!!!!!!!!!!!!!!!!!!!!!
-! Untranslated keys follow; remove the ! prefix after an entry is translated.
-!!!!!!!!!!!!!!!!!!!!!!!!!
-
-!HISTORY_MSG_ICM_OUTPUT_PRIMARIES;Output - Primaries
-!ICCPROFCREATOR_DESCRIPTION_ADDPARAM;Append gamma and slope values to the description
